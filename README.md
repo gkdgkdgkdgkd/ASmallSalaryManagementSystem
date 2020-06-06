@@ -17,8 +17,11 @@ java -jar Frontend.jar
 若运行失败可以用IDEA打开项目直接在IDEA中运行或者自行打包运行。
 
 ## 建议配合博客食用
+
 [CSDN](https://blog.csdn.net/qq_27525611/article/details/105083135)
+
 [博客园](https://www.cnblogs.com/6b7b5fc3/p/13054733.html)
+
 [Github Pages](https://www.bingling.site/post/javafxspringbootyan-zheng-ma-gong-neng-de-xiao-xing-xin-chou-guan-li-xi-tong/)
 
 
