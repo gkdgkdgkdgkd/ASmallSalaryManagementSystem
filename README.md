@@ -17,6 +17,13 @@ java -jar Frontend.jar
 ```
 若运行失败可以用IDEA打开项目直接在IDEA中运行或者自行打包运行。
 
+为了方便删去了idea自带的.gitignore文件，实测运行前端的项目点击直接运行后需要指定模块：
+
+![](https://img-blog.csdnimg.cn/20200606171719997.png)
+
+![](https://img-blog.csdnimg.cn/20200606171810118.png)
+
+后端项目直接打开运行即可，注意需要先开启数据库服务。
 # 3 管理员帐号
 默认管理员帐号与密码为
 ```
