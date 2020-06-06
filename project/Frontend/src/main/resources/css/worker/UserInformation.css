@@ -1,0 +1,14 @@
+#modify,#upload
+{
+    -fx-background-radius: 20;
+    -fx-background-color: #ffac41;
+}
+#modify:hover,#upload:hover
+{
+    -fx-background-color:#e2ff1f;
+}
+
+#nameText,#departmentText,#positionText
+{
+    -fx-background-radius: 25;
+}

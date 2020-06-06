@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="SalaryEntry" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.controller.admin.salaryEntry.SalaryEntryController">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e06d3d" height="510.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="270.0" />
+    <TreeView fx:id="users" layoutX="35.0" layoutY="70.0" prefHeight="419.0" prefWidth="200.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc01f" height="450.0" layoutX="270.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#17cd0a" height="60.0" layoutX="270.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+    <BarChart fx:id="barChart" layoutX="289.0" layoutY="127.0" prefHeight="376.0" prefWidth="653.0">
+      <xAxis>
+          <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+          <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+    <ComboBox id="years" fx:id="years" layoutX="336.0" layoutY="47.0" prefHeight="26.0" prefWidth="84.0" />
+    <ComboBox id="months" fx:id="months" layoutX="505.0" layoutY="47.0" prefHeight="26.0" prefWidth="84.0" />
+    <Button id="save" fx:id="saveButton" layoutX="841.0" layoutY="47.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="84.0" text="保存" onMouseClicked="#save"/>
+    <TextField id="salaryText" fx:id="salaryText" layoutX="675.0" layoutY="47.0" prefHeight="26.0" prefWidth="84.0" />
+</AnchorPane>

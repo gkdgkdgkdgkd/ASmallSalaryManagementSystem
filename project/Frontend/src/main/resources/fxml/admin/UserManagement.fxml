@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="UserManagement" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.controller.admin.userManagement.UserManagementController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f55b34" height="510.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="355.0" />
+   <TreeView id="users" fx:id="users" layoutX="28.0" layoutY="121.0" prefHeight="300.0" prefWidth="300.0" />
+
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#20f535" height="200.0" layoutX="653.0" layoutY="31.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="307.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5af27" height="310.0" layoutX="653.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="307.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f86d1c" height="510.0" layoutX="355.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+   <ImageView fx:id="userAvatar" fitHeight="150.0" fitWidth="150.0" layoutX="732.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+   <PieChart fx:id="pieChart" layoutX="355.0" layoutY="121.0" prefHeight="300.0" prefWidth="300.0" />
+   <Label fx:id="mainCellphoneLabel" layoutX="683.0" layoutY="285.0" opacity="0.0" text="电话">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="cellphoneLabel" layoutX="768.0" layoutY="285.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="mainNameLabel" layoutX="683.0" layoutY="349.0" opacity="0.0" text="姓名">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="nameLabel" layoutX="768.0" layoutY="349.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="mainpositionLabel" layoutX="683.0" layoutY="413.0" opacity="0.0" text="职位">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="positionLabel" layoutX="768.0" layoutY="413.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="mainDepartmentLabel" layoutX="683.0" layoutY="477.0" opacity="0.0" text="部门">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="departmentLabel" layoutX="768.0" layoutY="477.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Button id="modifyInformation" fx:id="modifyInformation" layoutX="14.0" layoutY="472.0" mnemonicParsing="false" onMouseClicked="#modifyInfo" text="修改信息">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button id="modifyAvatar" fx:id="modifyAvatar" layoutX="130.0" layoutY="472.0" mnemonicParsing="false" onMouseClicked="#modifyPic" text="修改图片">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button id="deleteUser" fx:id="deleteUser" layoutX="249.0" layoutY="472.0" mnemonicParsing="false" onMouseClicked="#delete" text="删除用户">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <TextField id="nameText" fx:id="nameText" layoutX="748.0" layoutY="346.0" opacity="0.0" prefHeight="28.0" prefWidth="165.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </TextField>
+   <TextField id="positionText" fx:id="positionText" layoutX="748.0" layoutY="407.0" opacity="0.0" prefHeight="28.0" prefWidth="165.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </TextField>
+   <TextField id="departmentText" fx:id="departmentText" layoutX="748.0" layoutY="474.0" opacity="0.0" prefHeight="28.0" prefWidth="165.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </TextField>
+</AnchorPane>
