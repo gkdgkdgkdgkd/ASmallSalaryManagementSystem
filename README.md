@@ -16,6 +16,14 @@ java -jar Frontend.jar
 ```
 若运行失败可以用IDEA打开项目直接在IDEA中运行或者自行打包运行。
 
+## 管理员帐号
+默认管理员帐号与密码为
+```
+admin
+password
+```
+可以自行修改application.properties中的帐号与密码，建议加密
+
 ## 建议配合博客食用
 
 [CSDN](https://blog.csdn.net/qq_27525611/article/details/105083135)
