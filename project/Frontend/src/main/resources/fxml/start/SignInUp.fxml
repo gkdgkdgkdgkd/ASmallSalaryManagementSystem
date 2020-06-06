@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="SignInUp" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.controller.start.SignInUpController">
+    <AnchorPane id="mainWindow" layoutX="326.0" layoutY="149.0" prefHeight="235.0" prefWidth="312.0"/>
+    <Label alignment="CENTER" layoutX="375.0" layoutY="179.0" prefHeight="25.0" prefWidth="213.0" text="薪酬管理系统">
+        <font>
+            <Font name="Consolas" size="20.0"/>
+        </font>
+    </Label>
+    <Button id="retrievePassword" layoutX="494.0" layoutY="328.0" mnemonicParsing="false"
+            onAction="#goToRetrievePassword" prefHeight="33.0" prefWidth="81.0" text="找回密码" textFill="WHITE">
+        <font>
+            <Font name="Segoe UI Bold" size="12.0"/>
+        </font>
+    </Button>
+    <Button id="signInUp" layoutX="388.0" layoutY="328.0" mnemonicParsing="false" onAction="#signInUp" prefHeight="33.0"
+            prefWidth="81.0" text="注册/登录" textFill="WHITE">
+        <font>
+            <Font name="Consolas Bold" size="12.0"/>
+        </font>
+    </Button>
+    <TextField id="cellphone" fx:id="cellphone" layoutX="388.0" layoutY="225.0" prefHeight="33.0" prefWidth="188.0"
+               promptText="请输入电话号码">
+        <font>
+            <Font name="System Bold" size="13.0"/>
+        </font>
+    </TextField>
+    <PasswordField id="password" fx:id="password" layoutX="388.0" layoutY="274.0" prefHeight="33.0" prefWidth="188.0"
+                   promptText="请输入密码"/>
+</AnchorPane>

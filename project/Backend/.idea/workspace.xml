@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="969095fa-a0ee-441a-a879-a6bbf39f61c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx1024m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="jasypt.encryptor.password" value="test" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cum4bhm2d2cmc6NOHooeISUb79" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3127875" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestApplication">
+    <configuration name="TestApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Djasypt.encryptor.password=test" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.TestApplication" />
+      <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=test" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.TestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="969095fa-a0ee-441a-a879-a6bbf39f61c7" name="Default Changelist" comment="" />
+      <created>1591386661208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591386661208</updated>
+      <workItem from="1591386669337" duration="5411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="84" width="1006" height="885" key="#Plugins" timestamp="1591414970628">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="454" y="84" width="1006" height="885" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1591414970628" />
+    <state x="227" y="244" width="1372" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591413861256">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="227" y="244" width="1372" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591413861256" />
+    <state width="1862" height="96" key="GridCell.Tab.0.bottom" timestamp="1591416265729">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="96" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591416265729" />
+    <state width="1862" height="96" key="GridCell.Tab.0.center" timestamp="1591416265728">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="96" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591416265728" />
+    <state width="1862" height="96" key="GridCell.Tab.0.left" timestamp="1591416265728">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="96" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591416265728" />
+    <state width="1862" height="96" key="GridCell.Tab.0.right" timestamp="1591416265729">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="96" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591416265729" />
+    <state width="1918" height="167" key="GridCell.Tab.1.bottom" timestamp="1591414833670">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="167" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591414833670" />
+    <state width="1918" height="167" key="GridCell.Tab.1.center" timestamp="1591414833669">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="167" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591414833669" />
+    <state width="1918" height="167" key="GridCell.Tab.1.left" timestamp="1591414833669">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="167" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591414833669" />
+    <state width="1918" height="167" key="GridCell.Tab.1.right" timestamp="1591414833669">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1918" height="167" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591414833669" />
+    <state x="278" y="0" width="1286" height="1051" key="SettingsEditor" timestamp="1591414067474">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="278" y="0" width="1286" height="1051" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591414067474" />
+    <state x="429" y="62" width="1056" height="957" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591413263438">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="429" y="62" width="1056" height="957" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1591413263438" />
+    <state x="594" y="210" width="732" height="634" key="find.popup" timestamp="1591414855322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="594" y="210" width="732" height="634" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591414855322" />
+  </component>
+</project>

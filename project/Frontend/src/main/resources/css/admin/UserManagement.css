@@ -1,0 +1,20 @@
+#modifyInformation,#modifyAvatar,#deleteUser
+{
+    -fx-background-radius: 25px;
+    -fx-background-color: #ffac41;
+}
+
+#modifyInformation:hover,#modifyAvatar:hover,#deleteUser:hover
+{
+    -fx-background-color: #f7ff0b;
+}
+
+#nameText,#positionText,#departmentText
+{
+    -fx-background-radius: 25px;
+}
+
+#users
+{
+    -fx-background-radius: 15px;
+}

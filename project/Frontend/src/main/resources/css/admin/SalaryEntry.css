@@ -1,0 +1,15 @@
+#years,#months,#workload,#save,#salaryText
+{
+    -fx-background-radius: 25px;
+}
+
+#save
+{
+    -fx-background-color: #ffac41;
+}
+
+#save:hover
+{
+    -fx-background-color: #e06d3d;
+}
+

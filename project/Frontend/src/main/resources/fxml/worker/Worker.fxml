@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Worker" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.controller.worker.WorkerController">
+    <Polygon fx:id="userPolygon" fill="DODGERBLUE" layoutX="166.0" layoutY="144.0"
+             points="-166.0, 396.0, 794.0, 396.0, -166.0, -114.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"/>
+    <Polygon fx:id="queryPolygon" fill="#d0a414" layoutX="231.0" layoutY="31.0"
+             points="-231.0, -0.9999923706054688, 729.0, -1.0, 729.0, 509.0" stroke="BLACK" strokeType="INSIDE"
+             strokeWidth="0.0"/>
+    <AnchorPane prefHeight="200.0" prefWidth="300.0" layoutX="505" layoutY="100" onMouseEntered="#salaryEnter"
+                onMouseExited="#salaryExited">
+        <Label fx:id="queryLabel" layoutX="150" layoutY="70" opacity="0" text="工资查询">
+            <font>
+                <Font size="29.0"/>
+            </font>
+        </Label>
+        <ImageView fx:id="queryImage" layoutX="105" fitHeight="169.0" fitWidth="194.0"
+                   onMouseClicked="#toSalaryQuery" pickOnBounds="true" preserveRatio="true" scaleX="0.85"
+                   scaleY="0.85">
+            <Image url="@../../image/worker/worker/Salary.png"/>
+        </ImageView>
+    </AnchorPane>
+    <AnchorPane layoutX="65.0" layoutY="275.0" prefHeight="200.0" prefWidth="300.0" onMouseEntered="#userEnter"
+                onMouseExited="#userExited">
+        <Label fx:id="userLabel" layoutX="150" layoutY="70" opacity="0" text="用户信息">
+            <font>
+                <Font size="29.0"/>
+            </font>
+        </Label>
+        <ImageView fx:id="userImage" layoutX="120" fitHeight="177.0" fitWidth="169.0"
+                   onMouseClicked="#toUserInformation" pickOnBounds="true" preserveRatio="true" scaleX="0.85"
+                   scaleY="0.85">
+            <Image url="@../../image/worker/worker/User.png"/>
+        </ImageView>
+    </AnchorPane>
+</AnchorPane>

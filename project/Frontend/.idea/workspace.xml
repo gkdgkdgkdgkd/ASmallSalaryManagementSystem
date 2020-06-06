@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a329bc8c-3b8a-48ed-827d-2f35eddc89f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ctQquYn9Vx1bmm7ktdCBZXzU1x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.utils" />
+      <recent name="com.test.log" />
+      <recent name="com.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.test.Main" />
+      <module name="Frontend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a329bc8c-3b8a-48ed-827d-2f35eddc89f9" name="Default Changelist" comment="" />
+      <created>1591345603736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591345603736</updated>
+      <workItem from="1591345607248" duration="3001000" />
+      <workItem from="1591350204195" duration="138000" />
+      <workItem from="1591361673937" duration="188000" />
+      <workItem from="1591362336394" duration="52000" />
+      <workItem from="1591364870166" duration="92000" />
+      <workItem from="1591384789606" duration="1827000" />
+      <workItem from="1591414575341" duration="1685000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591349414734">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="413" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591349414734" />
+    <state x="689" y="241" width="536" height="600" key="FileChooserDialogImpl" timestamp="1591362385491">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="689" y="241" width="536" height="600" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591362385491" />
+    <state width="1862" height="273" key="GridCell.Tab.0.bottom" timestamp="1591416271273">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591416271273" />
+    <state width="1862" height="273" key="GridCell.Tab.0.center" timestamp="1591416271271">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="273" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591416271271" />
+    <state width="1862" height="273" key="GridCell.Tab.0.left" timestamp="1591416271270">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="273" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591416271270" />
+    <state width="1862" height="273" key="GridCell.Tab.0.right" timestamp="1591416271272">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1862" height="273" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591416271272" />
+    <state x="594" y="188" width="732" height="706" key="find.popup" timestamp="1591414828114">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="594" y="188" width="732" height="706" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591414828114" />
+    <state x="519" y="193" width="875" height="663" key="recent.locations.popup" timestamp="1591361789232">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="519" y="193" width="875" height="663" key="recent.locations.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591361789232" />
+  </component>
+</project>

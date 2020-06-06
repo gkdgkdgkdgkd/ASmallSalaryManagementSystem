@@ -1,0 +1,59 @@
+{
+    "properties": [
+        {
+            "name": "backup.path",
+            "type": "java.lang.String",
+            "defaultValue": "null"
+        },
+        {
+            "name": "upload.path",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "backup.command",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "backup.dataTimeFormat",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "tencent.secret.id",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "tencent.secret.key",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "tencent.app.id",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "tencent.sign",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "tencent.template.id",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "admin.cellphone",
+            "type": "java.lang.String",
+            "defaultValue": null
+        },
+        {
+            "name": "admin.password",
+            "type": "java.lang.String",
+            "defaultValue": null
+        }
+    ]
+}
