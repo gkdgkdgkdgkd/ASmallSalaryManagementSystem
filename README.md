@@ -73,5 +73,12 @@ password
 [Github Pages](https://www.bingling.site/post/javafxspringbootyan-zheng-ma-gong-neng-de-xiao-xing-xin-chou-guan-li-xi-tong/)
 
 
+# 5 2020.06.10 更新
+
+修复Field injection is not recommended提示：
+![](https://img-blog.csdnimg.cn/20200610210255455.png)
+参考了[这篇文章](https://blog.csdn.net/jianzhang11/article/details/105283642)
+使用了`@RequiredArgsConstructor`代替了直接使用`@Autowired`。
+
 
 
