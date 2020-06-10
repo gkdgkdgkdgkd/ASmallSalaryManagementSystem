@@ -15,11 +15,10 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/")
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class EntityController {
-    @Autowired
-    private EntityService service;
-    @Autowired
-    private AvatarService avatarService;
+    private final EntityService service;
+    private final AvatarService avatarService;
 
     @GetMapping({"saveOne","saveAll","deleteMany","signInUp","getOne","getAll","cellphoneExists","retrievePassword"})
     public @ResponseBody String pageNotFound()
