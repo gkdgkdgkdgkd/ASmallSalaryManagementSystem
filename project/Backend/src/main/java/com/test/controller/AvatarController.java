@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/")
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AvatarController {
-    @Autowired
-    private AvatarService service;
+    private final AvatarService service;
 
     @GetMapping({"uploadOneAvatar","downloadOneAvatar","uploadAllAvatars","downloadAllAvatars"})
     public @ResponseBody String pageNotFound()
