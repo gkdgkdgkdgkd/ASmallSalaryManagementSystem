@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/")
+@CrossOrigin(value = "http://localhost:3000")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AvatarController {
     private final AvatarService service;
