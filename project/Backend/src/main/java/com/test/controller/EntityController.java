@@ -15,6 +15,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/")
+@CrossOrigin(value = "http://localhost:3000")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class EntityController {
     private final EntityService service;
