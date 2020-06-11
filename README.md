@@ -75,7 +75,9 @@ password
 
 # 更新日志
 # 2020.06.11 更新
-修复跨域请求问题。
+修复跨域请求问题：
+
+![](https://s1.ax1x.com/2020/06/11/tqZ6JO.png)
 
 使用Postwoman测试，发送GET/POST请求会出现CORS问题，解决方法是在Controller上加上了@CrossOrigin注解，默认使用3000端口，使用其他端口请自行修改@CrossOrigin中的值。
 
