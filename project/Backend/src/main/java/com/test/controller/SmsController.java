@@ -18,6 +18,7 @@ import java.nio.charset.StandardCharsets;
 
 @Controller
 @RequestMapping("/")
+@CrossOrigin(value = "http://localhost:3000")
 public class SmsController {
     @Value("${tencent.secret.id}")
     private String secretId;
