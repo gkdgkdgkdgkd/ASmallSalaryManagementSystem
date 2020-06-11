@@ -15,9 +15,9 @@ import java.util.List;
 
 @Transactional
 @Service
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class EntityService {
-    @Autowired
-    private WorkerRepository workerRepository;
+    private final WorkerRepository workerRepository;
 
     public ReturnCode saveOne(String json) {
         ReturnCode s = ReturnCode.SAVE_ONE_SUCCESS;
