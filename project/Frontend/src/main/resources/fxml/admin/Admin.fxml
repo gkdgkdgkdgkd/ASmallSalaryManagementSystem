@@ -15,7 +15,7 @@
              strokeWidth="0.0"/>
     <AnchorPane prefHeight="200.0" prefWidth="300.0" layoutX="505" layoutY="100" onMouseEntered="#workloadEnter"
                 onMouseExited="#workloadExited">
-        <Label fx:id="workloadLabel" layoutX="110" layoutY="70" opacity="0" text="工作量录入">
+        <Label fx:id="workloadLabel" layoutX="110" layoutY="70" opacity="0" text="工资录入">
             <font>
                 <Font size="29.0"/>
             </font>
