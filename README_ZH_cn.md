@@ -1,4 +1,4 @@
-English | [中文]()
+[English](https://github.com/2293736867/ASmallSalaryManagementSystem/blob/master/README.md) | 中文
 
 # 1 这是什么
 前端JavaFx+后端Spring Boot实现的小型薪酬管理系统，包含了源码和前端打包生成的exe与jar，还有后端打包生成的war与jar。
