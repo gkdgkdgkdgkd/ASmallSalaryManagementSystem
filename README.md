@@ -65,7 +65,7 @@ The backend project can be opened and run directly in IDEA. Also you need to ens
 
 If project can not run directly, solution:
 
-- 1. Create a new project, Maven project for the front end and Spring boot project for the back end
+- 1. Create a new project, Maven project for the front end and Spring Boot project for the back end
 - 2. Copy the source code and modify package
 - 3. Copy dependency in `pom.xml` and import them
 - 4. Copy resource files
@@ -108,7 +108,7 @@ Update the description of the HTTPS and the verification code of the blog. By de
 - `com.test.network.OKHTTP`
 - `resources/key/pem.pem`
 
-The backend needs to bbe deployed also. See the blog for details.
+The backend needs to be deployed also. See the blog for details.
 
 If you need the SMS function and use Tencent cloud API, you can modify `application.properties` directly. Using other API please modify them:
 
@@ -123,7 +123,7 @@ If you need the SMS function and use Tencent cloud API, you can modify `applicat
 - `com.test.controller.SmsController`
 
 # 06/11/2020
-Fix a CORS problem.
+Fix a CORS problem:
 
 ![](https://s1.ax1x.com/2020/06/11/tqZ6JO.png)
 
@@ -131,11 +131,11 @@ It was occurred when debugging with Postwoman sending a GET/POST request. `@Cros
 
 # 06/10/2020
 
-Fix `Field injection is not recommended`
+Fix `Field injection is not recommended`:
 
 ![](https://img-blog.csdnimg.cn/20200610210255455.png)
 
-Refer: [这篇文章](https://blog.csdn.net/jianzhang11/article/details/105283642)
+[References](https://blog.csdn.net/jianzhang11/article/details/105283642)
 
 Using `@RequiredArgsConstructor` instead of using `@Autowired` directly.
 
