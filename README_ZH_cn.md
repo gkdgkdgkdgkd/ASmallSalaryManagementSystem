@@ -37,13 +37,8 @@ TOCMAT_DIR/bin/startup.sh
 
 ## 2.2 前端
 
-- 如果您使用Windows可以通过EXE运行
-- 如果您使用其他系统可以通过JAR运行
-
-### EXE
-双击运行。
-
-### JAR
+- Windows：直接双击exe运行
+- 其他系统：通过JAR运行
 
 ```bash
 7z x release/Frontend/jar.7z
@@ -70,7 +65,7 @@ java -jar release/Frontend/Frontend.jar
 - 4、复制资源文件，即`resources`下的文件
 - 5、运行
 
-若上述方法都不能运行，请提issue或私信笔者。
+若上述方法都不能运行，请提issue或私信。
 
 # 3 管理员帐号
 默认管理员帐号与密码为
