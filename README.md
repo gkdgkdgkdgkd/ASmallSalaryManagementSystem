@@ -1,4 +1,4 @@
-English | [中文]()
+English | [中文](https://github.com/2293736867/ASmallSalaryManagementSystem/blob/master/README_ZH_cn.md)
 
 # 1 What's this
 
