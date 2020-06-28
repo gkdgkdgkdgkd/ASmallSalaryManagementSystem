@@ -22,7 +22,9 @@ This repository includes：
 
 ## 2.1 Back End
 First, run backend JAR/WAR.
+
 **Note: You need to start the database service firstly, and ensure that there is a database and correct user name and password.**
+
 **You can import `resources/init.sql` directly.**
 ### JAR
 
@@ -41,13 +43,8 @@ TOCMAT_DIR/bin/startup.sh
 
 ## 2.2 Front End 
 
-- If you are using Windows you can run exe directly.
-- If you are using other system you can run JAR.
-
-### EXE
-Double click.
-
-### JAR
+- Windows: Run exe directly
+- Other system: Run JAR
 
 ```bash
 7z x release/Frontend/jar.7z
